@@ -68,3 +68,20 @@ cacheSolve <- function(x, ...) {
     ## Return the matrix
     m
 }
+
+## Sample Run
+##x<-cbind(c(1,2),c(3,4))
+##m<-makeCacheMatrix(x)
+##m$get()
+##      [,1] [,2]
+##[1,]    1    3
+##[2,]    2    4
+##cacheSolve(m)
+##      [,1] [,2]
+##[1,]   -2  1.5
+##[2,]    1 -0.5
+##cacheSolve(m)
+##getting cached data :
+##      [,1] [,2]
+##[1,]   -2  1.5
+##[2,]    1 -0.5
